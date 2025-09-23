@@ -4,7 +4,11 @@
 This project focuses on building a **Credit Card Financial Dashboard** that delivers real-time insights into key performance metrics and trends.  
 The dashboard enables stakeholders to effectively monitor and analyze credit card operations, customer behavior, and financial performance.  
 
-The workflow uses **PostgreSQL (via pgAdmin 4)** for database setup, and **Power BI with DAX** for all data preprocessing, transformations, and visualizations.
+The workflow uses **PostgreSQL (via pgAdmin 4)** for database setup, and **Power BI with DAX** for all data preprocessing, transformations, and visualizations.  
+
+📌 **Note:**  
+- `cc_add.csv` contains additional credit card transaction entries used to test **real-time refresh** in Power BI.  
+- `cust_add.csv` contains additional customer entries used to test **real-time refresh** in Power BI.  
 
 ---
 
@@ -58,6 +62,7 @@ The workflow uses **PostgreSQL (via pgAdmin 4)** for database setup, and **Power
 ## ✅ Summary
 This project demonstrates:
 - Structuring and loading raw CSV data into PostgreSQL  
+- Using additional CSV files to test **real-time refresh** in Power BI  
 - Applying DAX in Power BI for transformations and KPIs  
 - Designing an interactive dashboard for weekly & YTD monitoring  
 - Extracting actionable business insights for stakeholders  
